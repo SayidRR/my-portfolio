@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Atkinson Hyperlegible Mono, monospace;
+  background: linear-gradient(45deg, #ffd700, #ffffff);
+  background-size: 400% 400%;
+  animation: gradientBackground 10s ease infinite;
+  height: 100vh;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.header-text h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #000;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-left: 80px;
+}
+  
+.header-text h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-left: 100px;
+}
+
+.header-photo img {
+  width: 450px;
+  height: 550px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #fff;
+  margin-right: 50px;
+}
+ul {
+  list-style-position: inside; 
+  padding-left: 0; /
+}
+
+li {
+  margin-left: 0; 
+  padding-left: 5px; 
+}
+
+#bio {
+  font-family: EB Garamond;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #000000;
+  padding: 10px;
+  margin-top: 1px;
+}
+
+#achievements {
+  font-family: EB Garamond;
+  font-weight: bold;
+  text-align: center;
+  border: 2px dashed #000000;
+  padding: 10px;
+}
+
+#profession {
+  font-family: EB Garamond;
+  font-weight: bold;
+  text-align: center;
+  border: 2px dotted #000000;
+  padding: 10px;
+}
+
+#contribution {
+  font-family: EB Garamond;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #000000;
+  padding: 10px;
+}
+#dalelder {
+    text-align: center; 
+    padding: 50px 0; 
+  }
+  
+  
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
