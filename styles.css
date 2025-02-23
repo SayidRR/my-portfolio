@@ -5,10 +5,10 @@
 }
 
 body {
-  font-family: Atkinson Hyperlegible Mono, monospace;
+  font-family: Atkinson Hyperlegible Mono;
   background: linear-gradient(45deg, hsl(65, 100%, 68%), #ffffff);
-  background-size: 400% 400%;
-  animation: gradientBackground 10s ease infinite;
+  background-size: 600% 600%;
+  animation: gradientBackground 7s ease infinite;
   height: 100vh;
 }
 .header-container {
@@ -48,10 +48,7 @@ ul {
   padding-left: 0; /
 }
 
-li {
-  margin-left: 0; 
-  padding-left: 5px; 
-}
+
 
 #bio {
   font-family: EB Garamond;
@@ -63,7 +60,7 @@ li {
   margin-top: 1px;
 }
 
-#achievements {
+#ach {
   font-family: EB Garamond;
   font-weight: bold;
   text-align: center;
@@ -72,7 +69,7 @@ li {
   padding: 10px;
 }
 
-#profession {
+#prof {
   font-family: EB Garamond;
   font-weight: bold;
   text-align: center;
@@ -81,26 +78,13 @@ li {
   padding: 10px;
 }
 
-#contribution {
+#tarih {
   font-family: EB Garamond;
   font-weight: bold;
   border-radius: 20px;
   text-align: center;
   border: 2px solid #000000;
   padding: 10px;
-}
-#dalelder {
-    text-align: center; 
-    padding: 50px 0; 
-  }
-  
-  
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #333;
-  color: #fff;
 }
 
 
