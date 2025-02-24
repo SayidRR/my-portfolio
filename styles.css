@@ -6,7 +6,7 @@
 
 body {
   font-family: Atkinson Hyperlegible Mono;
-  background: linear-gradient(45deg, hsl(65, 100%, 68%), #ffffff);
+  background: linear-gradient(45deg, #94d2bd, #ffffff);
   background-size: 600% 600%;
   animation: gradientBackground 7s ease infinite;
   height: 100vh;
