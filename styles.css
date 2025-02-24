@@ -11,7 +11,7 @@ body {
   animation: gradientBackground 7s ease infinite;
   height: 100vh;
 }
-.header-container {
+.headercont {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +19,7 @@ body {
   padding: 20px;
 }
 
-.header-text h1 {
+.headertext h1 {
   text-align: center;
   font-size: 3rem;
   color: #000;
